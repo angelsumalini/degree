@@ -1,0 +1,11 @@
+n=int(input("enter a range"))
+a=0
+b=1
+print(a,b,end=" ")
+c=3
+while c<=n:
+    s=a+b
+    print(s,end=" ")
+    a=b
+    b=s
+    c+=1
